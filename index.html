@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <link rel="stylesheet" href="./style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0,maximum-scale=1.0,minimun=1.0">
+  <title>我的画板</title>
+  <canvas id="xxx" width=300 height=300></canvas>
+  <div id="actions" class="actions on">
+      <img id="eraser" class="icon" src="./img/橡皮.png">
+      <img id="pen" class="active icon" src="./img/铅笔.png">
+      <img id="clear" class="icon" src="./img/clear.png">
+      <img id="download" class="icon" src="./img/download.png">
+  </div>
+  <div>
+    <ol class="colors">
+      <li id="black" class="black"></li>
+      <li id="red" class="red"></li>
+      <li id="green" class="green"></li>
+      <li id="blue" class="blue"></li>
+      <li id="yellow" class="yellow"></li>
+    </ol>
+    <ol class="sizes">
+      <li id="thin" class="thin"></li>
+      <li id="thick" class="thick"></li>
+    </ol>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
